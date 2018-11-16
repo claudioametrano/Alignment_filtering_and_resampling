@@ -1,7 +1,8 @@
 print("********************************")
 print("*Claudio G. Ametrano 2018 UNITS*")
 print("********************************")
-#USO: valuta quante sono le colonne della matrice (alignment) che hanno più caselle piene (a, g, t, c) che missing data "-" e se ce ne sono più di tot (deciso dall'utente) copia il file altrove
+#USO: valuta quante sono le colonne della matrice (alignment) che hanno più caselle piene (a, g, t, c) che missing data "-" 
+#e se ce ne sono più di tot (deciso dall'utente) copia il file altrove
 #  per dirla in altro modo cerca i file che hanno meno del 50% di missing data in almeno tot colonne dell'alignment!
 import os 
 import random
