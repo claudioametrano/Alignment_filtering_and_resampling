@@ -1,7 +1,7 @@
 print("********************************")
 print("*Claudio G. Ametrano 2018 UNITS*")
 print("********************************")
-#USE: it takes a fasta file, samples randomly (with replacement at the moment) n colunms and creates a new fasta with those sampled columns 
+#USE: it takes a fasta file, samples randomly without replacement n colunms and creates a new fasta with those sampled columns 
 import os 
 import random
 from Bio import SeqIO
