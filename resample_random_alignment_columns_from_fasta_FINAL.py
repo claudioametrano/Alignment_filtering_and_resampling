@@ -27,7 +27,7 @@ print("il numero delle sequenze è %s" %(number_of_sequences))
 sequences_length = len(record.seq)
 # counts the nucleotides of the alignment
 print(" the alignment is %s nucleotided" %(sequences_length))
-columns_to_sample = int(input("How many alignment posotions do you want to sample?"))
+columns_to_sample = int(input("How many alignment positions do you want to sample?"))
 # lo legger come un integer
         
 for record in SeqIO.parse(alignment_file, "fasta"):
